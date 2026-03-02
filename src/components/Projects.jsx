@@ -6,15 +6,15 @@ export default function Projects() {
 
         <div className="project-grid">
           <div className="project-card">
-            <h3>Commercial Tower</h3>
+            <h3>Plumbing</h3>
           </div>
 
           <div className="project-card">
-            <h3>Residential Estate</h3>
+            <h3>Paintings</h3>
           </div>
 
           <div className="project-card">
-            <h3>Highway Development</h3>
+            <h3>Interior Design</h3>
           </div>
         </div>
       </div>
