@@ -8,13 +8,15 @@ export default function About() {
         <div className="about-text">
           <h2>About Our Company</h2>
           <p>
-            <strong>Leading Construction & Engineering Firm:</strong> We deliver
-            large-scale infrastructure, residential, and commercial projects
-            with precision and integrity.
+            <strong>Leading Interior Finishing Firm:</strong> We specialize in
+            premium interior finishing, transforming spaces into elegant and
+            functional environments where quality meets excellence. With expert
+            craftsmanship, high-quality materials, and attention to detail, we
+            deliver flawless finishes for residential and commercial projects.
           </p>
           <p>
-            With years of expertise and a skilled workforce, we transform
-            architectural visions into <strong>lasting structures</strong>.
+            At the heart of our work is a commitment to precision, durability,
+            and client satisfaction — turning every space into a masterpiece.
           </p>
           <ul className="about-highlights">
             <li>✔ Innovative Project Solutions</li>
@@ -23,7 +25,11 @@ export default function About() {
           </ul>
         </div>
         <div className="about-image">
-          <img src={constructionImg} alt="Construction Team" className="about-img" />
+          <img
+            src={constructionImg}
+            alt="Construction Team"
+            className="about-img"
+          />
         </div>
       </div>
     </section>

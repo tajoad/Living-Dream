@@ -16,7 +16,7 @@ export default function Services() {
           </div>
           <div className="card">
             <h3>Infrastructure Development</h3>
-            <p>Roads, bridges, and urban development projects.</p>
+            <p>Urban development projects.</p>
           </div>
         </div>
       </div>
