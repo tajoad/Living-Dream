@@ -24,6 +24,22 @@ export default function Contact() {
     <section className="contact" id="contact">
       <div className="container">
         <h2>Contact Us</h2>
+
+        {/* Office Address */}
+        <div className="contact-info">
+          <p>
+            <strong>Office Address:</strong>
+          </p>
+          <p>11, Osho Street,</p>
+          <p>Oregun-Opebi Link Road, Opebi, Ikeja, Lagos, Nigeria</p>
+          <p>
+            <strong>Phone:</strong> +234 907 745 2004
+          </p>
+          <p>
+            <strong>Email:</strong> dalmcretechemicals@gmail.com
+          </p>
+        </div>
+
         <form onSubmit={handleSubmit}>
           <input
             type="text"
